@@ -96,7 +96,7 @@ sales-insight-automator/
 ├── .env.example
 ├── .gitignore
 └── README.md
-\```
+```
 
 ---
 

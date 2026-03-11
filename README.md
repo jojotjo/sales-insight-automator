@@ -19,21 +19,21 @@ Built as part of the Rabbitt AI — AI Cloud DevOps Engineer assessment.
 ## 🏃 Run Locally with Docker Compose
 
 ### 1. Clone the repo
-\```bash
+```bash
 git clone https://github.com/YOUR_USERNAME/sales-insight-automator.git
 cd sales-insight-automator
-\```
+```
 
 ### 2. Set up environment variables
-\```bash
+```bash
 cp .env.example .env
 # Fill in your real API keys in .env
-\```
+```
 
 ### 3. Start the full stack
-\```bash
+```bash
 docker-compose up --build
-\```
+```
 
 | Service | Local URL |
 |---------|-----------|
@@ -42,9 +42,9 @@ docker-compose up --build
 | Swagger Docs | http://localhost:5000/docs |
 
 ### 4. Stop the stack
-\```bash
+```bash
 docker-compose down
-\```
+```
 
 ---
 
@@ -117,7 +117,7 @@ sales-insight-automator/
 
 ## 🔧 Environment Variables
 
-\```env
+```env
 GROQ_API_KEY=           # Groq API key
 RESEND_API_KEY=         # Resend email service key
 FROM_EMAIL=             # Sender email address
@@ -125,7 +125,7 @@ FRONTEND_URL=           # Allowed CORS origin
 BACKEND_URL=            # Backend public URL
 API_SECRET_KEY=         # API key for endpoint protection
 PORT=                   # Backend port (default 5000)
-\```
+```
 
 ---
 

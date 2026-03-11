@@ -142,11 +142,12 @@ PORT=                   # Backend port (default 5000)
 
 ## 👨‍💻 Author
 Built with ❤️ for Rabbitt AI Engineering Assessment
-```
+
 
 ---
 
 ## Final folder structure after adding all 4 files:
+
 ```
 sales-insight-automator/
 ├── .github/
@@ -158,3 +159,4 @@ sales-insight-automator/
 ├── .gitignore            ← new
 ├── docker-compose.yml    ✅
 └── README.md             ← new
+```

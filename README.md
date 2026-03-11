@@ -66,7 +66,7 @@ docker-compose down
 
 ## 🗂️ Project Structure
 
-\```
+```
 sales-insight-automator/
 ├── backend/
 │   ├── src/

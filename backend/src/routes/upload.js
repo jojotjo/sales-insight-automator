@@ -1,7 +1,7 @@
 const express = require("express");
 const multer = require("multer");
 const { parseFile } = require("../services/parser");
-const { generateSummary } = require("../services/gemini");
+const { generateSummary } = require("../services/groq");
 const { sendEmail } = require("../services/mailer");
 
 const router = express.Router();
